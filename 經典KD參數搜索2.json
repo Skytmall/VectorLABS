@@ -1,0 +1,28 @@
+{
+    "profile_name": "KD_PARAMETER_RESEARCH",
+
+    "tickers": [
+        {"ticker":"2330.TW","checked":true},
+        {"ticker":"2454.TW","checked":true},
+        {"ticker":"2308.TW","checked":true},
+        {"ticker":"2317.TW","checked":true},
+        {"ticker":"2382.TW","checked":true},
+        {"ticker":"3034.TW","checked":true},
+        {"ticker":"2881.TW","checked":true},
+        {"ticker":"2882.TW","checked":true},
+        {"ticker":"2886.TW","checked":true},
+        {"ticker":"1301.TW","checked":true},
+        {"ticker":"1303.TW","checked":true},
+        {"ticker":"2207.TW","checked":true}
+    ],
+
+    "strategies": {
+        "KD 基礎策略": {
+            "period": [5,16,27,38,49],
+            "alpha_k": [0.1,0.2,0.3,0.4,0.5],
+            "alpha_d": [0.1,0.2,0.3,0.4,0.5],
+            "oversold": [10,20,30,40],
+            "overbought": [60,70,80,90]
+        }
+    }
+}
